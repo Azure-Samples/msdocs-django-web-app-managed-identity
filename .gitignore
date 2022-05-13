@@ -103,12 +103,17 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+.venv*
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+__azurite*
+.deployment
+
+# Keys
+*.pem
 
 # Spyder project settings
 .spyderproject
